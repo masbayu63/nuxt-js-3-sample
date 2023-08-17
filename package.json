@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-28200790.d820607",
+    "@nuxt/devtools": "latest",
+    "@nuxt/typescript": "^2.8.1",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.3",
+    "nuxt": "^3.6.5",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.6.4",
+    "resolve-url": "^0.2.1"
+  }
+}
